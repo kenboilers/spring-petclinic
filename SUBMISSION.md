@@ -9,7 +9,7 @@ directory and add links to those images to the SUBMISSION.md file. The images yo
 
 5 pts Your Github account showing that is has been forked from the depaulcdm/springpetclinic
 repository.
-![Screen Capture #1](images/image1.jpg)
+![Screen Capture #1](images/Image1.JPG)
 
 5 pts Your Travis CI dashboard showing a successful first build.
 ![Screen Capture #2](images/image2.jpg)
