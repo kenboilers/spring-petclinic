@@ -1,41 +1,31 @@
 # Instructions
-# Homework 5 CS441
+# Homework 8 CS441
 # Kenneth Kelly 0856171
-
 Deliverables [50 pts]
-
-For this week, create a new SUBMISSION.md file in your repo. Add the images to a new figures
-directory and add links to those images to the SUBMISSION.md file. The images you need are:
-
-5 pts Your Github account showing that is has been forked from the depaulcdm/springpetclinic
-repository.
-![Screen Capture #1](images/Image1.JPG)
-
-5 pts Your Travis CI dashboard showing a successful first build.
-![Screen Capture #2](images/Image2.JPG)
-
-5 pts The section of the POM file showing the coordinates after you’ve changed them.
-![Screen Capture #3](images/Image3.JPG)
-
-5 pts Your Travis CI dashboard showing a successful build after your change of the group ID.
-![Screen Capture #4](images/Image4.JPG)
-
-5 pts The section of the POM file showing the coordinates after you’ve commented them out.
-![Screen Capture #5](images/Image5.JPG)
-
-5 pts Your Travis CI dashboard showing the unsuccessful build after the breaking change.
-![Screen Capture #6](images/Image6.JPG)
-
-5 pts Your Github repository with the readme.md file selected showing the build failed status after the Travis CI build fails.
-![Screen Capture #7](images/Image7.JPG)
-
-5 pts The section of the POM file showing the coordinates after you’ve fixed them.
-![Screen Capture #8](images/Image8.JPG)
-
-5 pts Your Travis CI dashboard showing the successful build after the breaking change has been fixed.
-![Screen Capture #9](images/Image9.JPG)
-
-5 pts Your Github repository with the readme.md file selected showing the build success status after the Travis CI build has recovered.
-![Screen Capture #10](images/Image10.JPG)
-
-
+For this week, please provide screen captures uploaded and embedded into the SUBMISSIONS.md
+file the show:
+DOCKER
+5 pts Your dockerfile. Please provide a link to this file rather than a screen capture.
+https://github.com/kenboilers/spring-petclinic/blob/master/DockerFile
+5 pts Your running docker instance as shown by a ps command.
+![Screen Capture #1](images/Image8.1.2.JPG)
+5 pts Your browser accessing the main page of the website from your local container.
+![Screen Capture #2](images/Image8.1.3.JPG)
+DOCKER COMPOSE - MYSQL ONLY
+5 pts The output from the docker-compose up command.
+![Screen Capture #3](images/Image8.2.1.JPG)
+5 pts Your browser accessing the “Veterinarians” page of the website from your local container when you run the application from the host system.
+![Screen Capture #4](images/Image8.2.2.JPG)
+5 pts A section of the stack trace generated when you attempt to run the application
+container that has been updated to use MySQL.
+![Screen Capture #5](images/Image8.2.3.JPG)
+DOCKER COMPOSE - APP SERVER AND MYSQL
+5 pts Your updated docker-compose.yml file containing the application server, built from your local Dockerfile, and the existing MySQL configuration. Please provide a link to this file rather than a screen capture.
+https://github.com/kenboilers/spring-petclinic/blob/master/docker-compose.yml
+5 pts Your updated application-mysql.properties file containing the URL change for
+the database server. Please provide a link to this file rather than a screen capture.
+https://github.com/kenboilers/spring-petclinic/blob/master/src/main/resources/application-mysql.properties
+5 pts The output from the docker-compose up command.
+![Screen Capture #6](images/Image8.3.2.JPG)
+5 pts Your browser accessing the “Veterinarians” page of the website from your local container.
+![Screen Capture #7](images/Image8.3.3.JPG)
