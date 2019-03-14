@@ -41,7 +41,7 @@ https://github.com/kenboilers/spring-petclinic/blob/master/src/main/resources/ap
 
 5 pts The output from the docker-compose up command.
 
-![Screen Capture #6](images/Image8.3.4.JPG)
+![Screen Capture #6](images/Image8.3.3.JPG)
 
 5 pts Your browser accessing the “Veterinarians” page of the website from your local container.
 
